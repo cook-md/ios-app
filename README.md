@@ -58,3 +58,4 @@ This repository is for collecting feedback about the Cook iOS app:
 - [Cooklang](https://cooklang.org) — the recipe markup language
 - [CookCLI](https://github.com/cooklang/CookCLI) — command-line tool for Cooklang
 - [Cook for Android](https://github.com/cook-md/android-app) — Android version
+- [Sync Agent](https://github.com/cook-md/sync-agent) — CookCloud sync for desktop
