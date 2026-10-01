@@ -46,6 +46,8 @@ Full documentation with screenshots is available at [cook.md/help](https://cook.
 - [Using the App](https://cook.md/help/ios/using-the-app) — features guide
 - [Troubleshooting](https://cook.md/help/ios/troubleshooting) — common issues and FAQ
 
+What changed in each version is in the [changelog](CHANGELOG.md), also published as [releases](https://github.com/cook-md/ios-app/releases) you can watch or follow by RSS.
+
 ## Feedback
 
 This repository is for collecting feedback about the Cook iOS app:
