@@ -15,8 +15,8 @@ notes stay in the private repository; this file is generated from it.
 
 ### Fixed
 
-- Hangs from file IO on the main thread, a crash in the recipe pager, and 504
-  responses are handled.
+- Freezes while recipes were being read, and a crash when swiping between
+  recipes.
 - The shopping list follows recipe references all the way down.
 
 ## [0.10.4] - 2026-09-17
@@ -54,4 +54,3 @@ notes stay in the private repository; this file is generated from it.
   stays on screen while the refresh is in flight.
 - A plan upgrade is re-linked instead of being skipped as a renewal, and the
   receipt-minted session is linked rather than trusted.
-- Both API error envelope shapes are decoded.
