@@ -3,7 +3,7 @@
 Your complete recipe companion. Browse your [Cooklang](https://cooklang.org) recipe collection, cook with step-by-step guidance, and create smart shopping lists — all from your pocket.
 
 <p>
-  <a href="https://apps.apple.com/app/cook-recipe-manager/id1438249838">
+  <a href="https://apps.apple.com/app/id1598799259">
     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="50">
   </a>
 </p>
@@ -25,14 +25,14 @@ Your complete recipe companion. Browse your [Cooklang](https://cooklang.org) rec
 - **Smart shopping lists** — auto-generated from recipes, organized by store aisle, shareable with family
 - **Clip recipes** — import from any website URL or snap a photo of a cookbook page
 - **Share recipes** — generate a QR code or shareable link for any recipe
-- **Sync options** — CookCloud (cross-platform), iCloud Drive, or local folders
+- **Sync options** — [Cook Cloud sync](https://cook.md/) (cross-platform), iCloud Drive, or local folders
 - **Offline support** — recipes are available without an internet connection once synced
 - **Own your data** — plain text Cooklang files, no account required
 
 ## Getting Started
 
-1. Download **Cook** from the [App Store](https://apps.apple.com/app/cook-recipe-manager/id1438249838)
-2. Choose a sync method: **CookCloud** (recommended), **iCloud Drive**, or **Local Folder**
+1. Download **Cook** from the [App Store](https://apps.apple.com/app/id1598799259)
+2. Choose a sync method: **Cook Cloud** (recommended), **iCloud Drive**, or **Local Folder**
 3. Add `.cook` recipe files to your synced folder — learn the simple Cooklang syntax at [cooklang.org](https://cooklang.org)
 
 Requires iOS 15.0 or later.
