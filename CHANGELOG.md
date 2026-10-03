@@ -3,6 +3,37 @@
 What changed in each release of the app, newest first. Internal engineering
 notes stay in the private repository; this file is generated from it.
 
+## [0.11.1] - 2026-10-02
+
+### Added
+
+- Siri: move between cooking steps and finish cooking by voice.
+- "What's new" in Settings → About opens this changelog.
+- Hit the import limit without an account? You can now sign in for free
+  to keep importing, and the import picks up where it stopped.
+
+### Changed
+
+- The import gates (photo and social-link imports) use the same wording as the
+  web converter.
+- Signed-out users are asked to sign in at feature gates instead of being shown
+  the purchase paywall.
+- Sign-in and import prompts no longer suggest that an account alone
+  brings sync, photo imports or meal plans: sync comes with Cook Basic, photo
+  and social-link imports with a Cook Cloud plan.
+
+### Fixed
+
+- Changes in a recipe folder are picked up reliably again.
+- Turning on sync no longer freezes the app while it checks a large recipe
+  folder.
+- Importing a recipe after your cook.md session expired no longer fails with a
+  message about image clipping: you're asked to sign in again, and the import
+  carries on.
+- Importing too quickly now tells you how many seconds to wait.
+- Importing a social media link while signed out asks you to sign in,
+  instead of stopping after the spinner with nothing on screen.
+
 ## [0.11.0] - 2026-09-23
 
 ### Added
