@@ -3,6 +3,63 @@
 What changed in each release of the app, newest first. Internal engineering
 notes stay in the private repository; this file is generated from it.
 
+## [0.12.0] - 2026-10-07
+
+### Added
+
+- Clip Recipe has a Text tab: paste a recipe from a note, a message or an
+  email and it is turned into a Cooklang recipe.
+- Share selected text from another app to Cook and it is converted straight
+  away. If you're not signed in and hit the import limit, the text is carried
+  into the app so you can sign in and finish there.
+- Getting started asks three more questions — allergies, how much time you
+  have on a weeknight, and what you'd like Cook to help with — so your first
+  recipes fit you better. Recipes with an allergen you pick are left out.
+- When your starter recipes are ready, a summary shows how many were added,
+  what they were matched to and what to try next. If you don't have a plan
+  yet, you can look at the plans from there — or start a free trial, when one
+  is available to you.
+
+### Changed
+
+- Meal plans are free for everyone: every day opens in full and Add all
+  ingredients works, signed in or not.
+- Hidden files and folders (names starting with a dot) no longer appear in
+  your recipe list or in folder counts.
+
+### Fixed
+
+- Sharing a recipe link to Cook while signed out and hitting the import limit
+  now offers to sign in: it opens Cook, which signs you in and imports the
+  recipe.
+- Opening a folder in a large recipe library no longer freezes the app. Cook
+  now reads only the folder you're looking at, and loads each recipe's picture
+  as its row appears.
+- A folder is no longer hidden when a recipe next to it has the same name.
+- Recipes and meal plans whose file extension isn't lowercase, like
+  `Pancakes.COOK`, now show up.
+- Two recipes in the same folder with the same title no longer collapse into
+  one row.
+- Cook opens again on iPhones and iPads running iOS 16. It crashed at launch
+  while the crash reporter catalogued the app's screens.
+- Turning sync on while your recipes live in a custom or iCloud folder no
+  longer freezes the app while they are copied over.
+- Starting to cook no longer freezes the app while step photos and the aisle
+  list are read from a slow folder. Each step's photo appears as you reach it.
+- Signing in from the plans screen at the end of getting started brings you
+  back to your summary instead of jumping straight to your recipes.
+- Tapping "Start cooking" while the plans screen was still opening could stop
+  every later plans screen from opening until you relaunched the app. The
+  summary now waits for the plans screen to close first.
+- The one-time plans offer is no longer used up when the plans could not be
+  loaded.
+- A recipe with ".cook" in the middle of its name, like `Dr.Cook's Chili.cook`,
+  now shows its full name.
+- A recipe whose name ends in `.menu` or `.cook` before the extension, like
+  `Sunday.Menu.cook`, is found again from the shopping list.
+- Opening a recipe that iCloud hasn't downloaded yet no longer freezes the app
+  while the file is fetched.
+
 ## [0.11.1] - 2026-10-02
 
 ### Added
