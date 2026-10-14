@@ -3,6 +3,47 @@
 What changed in each release of the app, newest first. Internal engineering
 notes stay in the private repository; this file is generated from it.
 
+## [0.13.0] - 2026-10-14
+
+### Added
+
+- Favourites: tap the heart on a recipe to keep it, and find it on the new
+  Favourites tab, as one list or grouped by tag, with its own search. They
+  are saved in a `.bookmarks` file at the root of your collection, so they
+  travel with your recipes.
+- Manage your recipes in the app: create, edit, rename, move and delete
+  recipes, move and delete folders, and import a `.cook` file from Files.
+  Photos and favourites follow along, and most actions can be undone.
+- Search your whole library by title, ingredient or tag, by typing or by
+  voice, with recent searches and recently opened recipes ready before you
+  type.
+- Swipe a recipe or meal plan to add it to the shopping list, favourite it or
+  delete it, or hold it for more.
+
+### Changed
+
+- A new look for the recipe list, the recipe screen, meal plans and the empty
+  shopping list. Steps sit on cards, and a recipe a step links to opens with
+  a tap.
+- "+" on the recipes tab opens a menu: create a recipe, import from a link,
+  paste text, scan a photo or pick a file.
+- Adding a recipe with linked recipes to the shopping list asks which of them
+  to include, and the list keeps exactly what you chose.
+- The ingredients and cookware tabs are each one list for the whole recipe,
+  with linked recipes first.
+- The recipe list shows each recipe by the title written in it.
+- A shared recipe zip includes the step photos.
+
+### Fixed
+
+- Step photos show on recipes without section headings, named
+  `Recipe.2.jpg` or `Recipe.1.2.jpg`.
+- Menus and `.webp` / `.heic` photos download from iCloud to your other
+  devices like `.cook` files and `.jpg` photos.
+- A photo set with `image:` at the top of a recipe shows on its screen again.
+- On iPad, recipes and Settings open in a larger window, and opening a folder
+  no longer makes the list jump.
+
 ## [0.12.0] - 2026-10-07
 
 ### Added
