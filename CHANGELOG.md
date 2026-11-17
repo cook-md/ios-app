@@ -3,6 +3,46 @@
 What changed in each release of the app, newest first. Internal engineering
 notes stay in the private repository; this file is generated from it.
 
+## [0.14.0] - 2026-11-17
+
+### Added
+
+- Cooking mode now shows a recipe's notes. Each note gets a page of its own,
+  in the place the recipe has it: before a step, between steps, or at the
+  end. Notes that sit together share one page, and step numbers stay as they
+  were. A web address in a note is a link you can tap.
+- A Browser tab on Clip Recipe: browse to a recipe — including on sites you
+  are signed in to — and clip it straight from the page. Select part of the
+  page first to clip only that. "Browse the web" in the plus menu opens it.
+- The app asks for a rating once you have added to the shopping list a few
+  times: on the third addition, and once more on the fiftieth.
+
+### Changed
+
+- "Start free trial" at the end of setup now opens the App Store sheet for
+  the plan the card names, in one tap. If you close the sheet, you see all
+  the plans. Once you have subscribed, setup ends and your recipes open.
+  The card also has a sign-in link, Terms of Use, Privacy Policy and
+  Restore.
+  
+- The plans screen now says that sync covers your shopping list as well as
+  your recipes.
+  
+- Siri no longer reads the step aloud when you ask for the next or previous
+  one in cooking mode. Say "Read the step in Cook" when you want to hear it.
+- The free-trial card at the end of setup now says what the trial gives you:
+  "Try all app features free for 7 days".
+  
+
+### Fixed
+
+- A section that has only notes and no steps is no longer missing from the
+  recipe's steps.
+- Sync no longer stops with "Sync error" after you leave the app and come
+  back to it. Two sync sessions could end up running at once and block each
+  other.
+  
+
 ## [0.13.0] - 2026-10-14
 
 ### Added
