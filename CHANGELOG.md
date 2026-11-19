@@ -3,6 +3,15 @@
 What changed in each release of the app, newest first. Internal engineering
 notes stay in the private repository; this file is generated from it.
 
+## [0.14.1] - 2026-11-19
+
+### Fixed
+
+- Signing in with a large recipe library no longer stops at "Unexpected sync
+  error" over an empty list. Recipes and photos now arrive in batches and
+  show up as they download, and a sync interrupted by leaving the app picks
+  up where it stopped instead of starting again.
+
 ## [0.14.0] - 2026-11-17
 
 ### Added
@@ -14,11 +23,25 @@ notes stay in the private repository; this file is generated from it.
 - A Browser tab on Clip Recipe: browse to a recipe — including on sites you
   are signed in to — and clip it straight from the page. Select part of the
   page first to clip only that. "Browse the web" in the plus menu opens it.
+- The app asks for a rating once you have added to the shopping list a few
+  times: on the third addition, and once more on the fiftieth.
 
 ### Changed
 
+- "Start free trial" at the end of setup now opens the App Store sheet for
+  the plan the card names, in one tap. If you close the sheet, you see all
+  the plans. Once you have subscribed, setup ends and your recipes open.
+  The card also has a sign-in link, Terms of Use, Privacy Policy and
+  Restore.
+  
+- The plans screen now says that sync covers your shopping list as well as
+  your recipes.
+  
 - Siri no longer reads the step aloud when you ask for the next or previous
   one in cooking mode. Say "Read the step in Cook" when you want to hear it.
+- The free-trial card at the end of setup now says what the trial gives you:
+  "Try all app features free for 7 days".
+  
 
 ### Fixed
 
